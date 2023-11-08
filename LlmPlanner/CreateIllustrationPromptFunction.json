@@ -1,0 +1,18 @@
+[
+  {
+    "role": "system",
+    "content": "you are a creative writing assistant"
+  },
+  {
+    "role": "user",
+    "content": "Create a short descriptive prompt for image generation AI to produce an engaging and imaginative story book illustration based on the following story synopsis:\nMeet Whisker, the chef cat, who resides in the charming town of Whiskerville. Whisker's heart is filled with culinary dreams, and he longs to become a renowned chef and open his own restaurant. He draws inspiration from his loving Granny Whiskers and the delectable aromas that waft from their cozy kitchen. As he watches Granny Whiskers create mouthwatering dishes, he feels a deep sense of purpose and begins to envision a future where his culinary aspirations come to life. The culinary adventure of Whisker, the chef cat, begins with this profound dream, setting the stage for the chapters to come."
+  },
+  {
+    "role": "assistant",
+    "content": "Generate an imaginative story book illustration that depicts Whisker, the chef cat, standing in his cozy kitchen, eyes shining with culinary dreams, while his Granny Whiskers creates delectable dishes. The illustration should evoke the warmth and inspiration in their kitchen, marking the beginning of Whisker's culinary adventure."
+  },
+  {
+    "role": "user",
+    "content": "Create a short descriptive prompt for image generation AI to produce an engaging and imaginative story book illustration based on the following story synopsis:\n{synopsis}"
+  }
+]

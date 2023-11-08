@@ -1,0 +1,18 @@
+[
+  {
+    "role": "system",
+    "content": "you are a creative writing assistant"
+  },
+  {
+    "role": "user",
+    "content": "Create a list of 3 chapters for a book about a chef cat's adventure. Return chapter names and synopsis for each chapter. Enclode the chapter name in square bracket. Do not prefix the chapter name with chapter numbering like Chapter 1: and Chapter 2:. Enclode the synopsis in angle bracket. example:\n[Chapter Name]\n<This is a synopsis of the chapter. It should be a few paragraphs long and be enclosed in angle bracket>"
+  },
+  {
+    "role": "assistant",
+    "content": "[The Culinary Awakening]\n<In this chapter, we meet our protagonist, Whiskers, a talented and passionate chef in a prestigious culinary school. However, Whiskers feels like something is missing from his life. One day, while experimenting with a new recipe, he accidentally discovers a rare and magical spice that transports him to a whole new world - a world where animals can talk and cook! Excited and intrigued, Whiskers embarks on an unforgettable adventure to explore this extraordinary realm and uncover the secrets of the enchanted spice.>\n[A Gastronomic Quest]\n<Whiskers arrives in the animal kingdom of Bistroville, where he is hailed as a culinary hero due to his impressive skills. However, he soon learns that the animals of Bistroville are facing a food crisis, as their crops have been infected by a mysterious disease. Determined to help his newfound friends, Whiskers sets off on a gastronomic quest to the forbidden Lands of Flavors, where he believes he can find a cure for the ailing crops. Along the way, he encounters dangerous adversaries, uncovers ancient recipes, and learns valuable lessons about friendship and perseverance.>\n[The Gourmet Gala]\n<After successfully returning from his quest with the cure, Whiskers is now hailed as a savior in Bistroville. To celebrate, the animal community organizes a grand Gourmet Gala, inviting renowned chefs from far and wide. Excited with the opportunity to learn from top culinary experts, Whiskers throws himself into preparations, determined to showcase his newfound knowledge and skills. However, as the gala approaches, Whiskers faces unexpected challenges, including a jealous rival chef and a mischievous gang of food-snatching rodents. Will Whiskers be able to overcome these obstacles and make the Gourmet Gala a resounding success?>"
+  },
+  {
+    "role": "user",
+    "content": "Create a list of {chapterCount} chapters for a book about {bookTheme}. Return chapter names and synopsis for each chapter. Enclode the chapter name in square bracket. Do not prefix the chapter name with chapter numbering like Chapter 1: and Chapter 2:. Enclode the synopsis in angle bracket. example:\n[Chapter Name]\n<This is a synopsis of the chapter. It should be a few paragraphs long and be enclosed in angle bracket>"
+  }
+]

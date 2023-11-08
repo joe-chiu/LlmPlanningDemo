@@ -1,0 +1,28 @@
+﻿# Chapter 1
+chapters = PlanBookChaptersFunction(chapterCount: 3, bookTheme: "Chef Cat's Culinary Journey")
+
+print(chapters[0].name)
+chapterContent = WriteBookChapterFunction(bookTheme: "Chef Cat's Culinary Journey", chapterName: chapters[0].name, actCount: 3)
+print(chapterContent)
+
+output = CreateIllustrationPromptFunction(synopsis: chapters[0].synopsis)
+filename = CreateIllustrationFunction(prompt: output)
+print(filename)
+
+# Chapter 2
+print(chapters[1].name)
+chapterContent = WriteBookChapterFunction(bookTheme: "Chef Cat's Culinary Journey", chapterName: chapters[1].name, actCount: 3)
+print(chapterContent)
+
+output = CreateIllustrationPromptFunction(synopsis: chapters[1].synopsis)
+filename = CreateIllustrationFunction(prompt: output)
+print(filename)
+
+# Chapter 3
+print(chapters[2].name)
+chapterContent = WriteBookChapterFunction(bookTheme: "Chef Cat's Culinary Journey", chapterName: chapters[2].name, actCount: 3)
+print(chapterContent)
+
+output = CreateIllustrationPromptFunction(synopsis: chapters[2].synopsis)
+filename = CreateIllustrationFunction(prompt: output)
+print(filename)
