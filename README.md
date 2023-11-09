@@ -23,7 +23,7 @@ List<Function> functions = new()
 };
 
 Planner planner = new(
-    "create a children's story book about a genius dog " + moew
+    "create a children's story book about a genius dog " + 
     "saving all the pizza in the wrold from being kidnapped by evil professor cat " +
     "with 3 chapters, each chapter should contain 3 acts and " + 
     "with illustration for each chapter based on chapter synopsis.", 
